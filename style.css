@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #E0E0E0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    background-color: #dcffcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 50px;
+}
+
+
+.btn{
+   font-size: 130%;
+    color: #00ff00;
+    box-shadow: 0 20px 20px -17px rgba(0, 255, 0, 1);
+}
+
+.btn:hover {
+    transform: scale(1);
+    box-shadow: 0 35px 50px -15px rgba(0, 255, 0, 1);
+}
+
